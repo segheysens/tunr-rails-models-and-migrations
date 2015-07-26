@@ -81,5 +81,3 @@ test:
 production:
   <<: *default
   database: tunr_production
-  username: tunr
-  password: <%= ENV['TUNR_DATABASE_PASSWORD'] %>
